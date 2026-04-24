@@ -26,7 +26,8 @@ dependencies {
     
     errorprone 'com.google.errorprone:error_prone_core:2.28.0'
 
-    implementation group: 'com.github.freva', name: 'ascii-table', version: '1.8.0'
+    implementation("com.google.guava:guava:33.6.0-jre")
+
 
 
     // This dependency is used by the application.
