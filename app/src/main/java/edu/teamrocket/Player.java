@@ -6,9 +6,10 @@ public class Player {
 
     private Byte handicap;
 
-    private Short score;
+    private Short score = 0;
 
-    private Short points;
+    private Short stablefordPoints = 0
+    ;
 
     Player(String initials, Byte handicap) {
         this.initials = initials;
@@ -27,12 +28,12 @@ public class Player {
         this.score = (short) score;
     }
 
-    Short getPoints() {
-        return points;
+    Short getStablefordPoints() {
+        return stablefordPoints;
     }
 
-    void setPoints(int score) {
-        this.points = (short) score;
+    void setPoints(int points) {
+        this.stablefordPoints = (short) points;
     }
 
     @Override
